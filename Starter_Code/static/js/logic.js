@@ -56,7 +56,7 @@ function createMap(earthquakes) {
       "Topographic Map": topo
   };
 
-  // Create an overlay object to hold our overlay.
+  // Create an overlay object to hold overlay.
   let overlayMaps = {
       "Earthquakes": earthquakes,
       
@@ -101,7 +101,7 @@ function createMap(earthquakes) {
 
 // Increase marker size based on magnitude
 function markerSize(magnitude) {
-  return magnitude * 5;
+  return magnitude * 6;
 }
 
 // Change marker color based on depth
